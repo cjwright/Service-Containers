@@ -60,10 +60,10 @@ connection.commit()
 print("Table created successfully........")
 
 # generate test data for 100 employees
-print("Generating test data for 100 employees")
+print("Generating test data for 10 employees")
 fake = Faker()
 
-for i in range(0, 100):
+for i in range(0, 10):
     first_name = fake.first_name()
     last_name = fake.last_name()
 
